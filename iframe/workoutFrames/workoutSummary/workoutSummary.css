@@ -1,0 +1,64 @@
+.screen {
+  font-size: 25px;
+  position: absolute;
+  height: 236px;
+  width: 236px;
+  border-radius: 50%;
+  top: 0px;
+  left: 0px;
+  background-color: #212121;
+  /* border: 1px solid red; */
+}
+
+  #summary {
+    position: relative;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    top: -8px;
+    line-height: 20px;
+  }
+
+  #return {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 30px;
+    border-radius: 50%;
+  }
+
+  #title {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    /* left: 75px; */
+    font-weight: bolder;
+  }
+
+  #next {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: -20px;
+    left: 95px;
+    border-radius: 50%;
+  }
+
+  .break {
+    color: white;
+    font-size: 10px;
+  }
+
+  #b1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+  }
+
+  #b2 {
+    text-align: center;
+    position: relative;
+    top: -17px;
+  }

@@ -1,0 +1,64 @@
+.screen {
+  font-size: 25px;
+  position: absolute;
+  height: 236px;
+  width: 236px;
+  border-radius: 50%;
+  top: 0px;
+  left: 0px;
+  background-color: #212121;
+  /* border: 1px solid red; */
+}
+
+#toAdd {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 20px;
+  left: 77.5px;
+}
+
+#text {
+  position: relative;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  top: 90px;
+}
+
+#ok {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 135px;
+  top: 90px;
+}
+
+#cancel {
+  position: relative;
+  width: 35.5px;
+  height: 35.5px;
+  left: 15px;
+  top: 90px;
+}
+
+#data {
+  position: relative;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  top: 80px;
+}
+  
+  
+
+
+#return {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  /* top: 5px; */
+  border-radius: 50%;
+  top: 90px;
+}

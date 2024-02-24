@@ -1,0 +1,176 @@
+.screen {
+    font-size: 25px;
+    position: absolute;
+    height: 236px;
+    width: 236px;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+    background-color: #212121;
+    /* border: 1px solid #00A2E8; */
+  }
+ 
+#teclado {
+    border: 1px solid #212121;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 43px;
+    top: 25px;
+    border-radius: 95%;
+}
+
+.tecla {
+    border: 1px solid #88DB2A;
+    position: relative;
+    width: 43px;
+    height: 31px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+/* --------------------------- */
+
+#t1 {
+    top: 0.5px;
+    left: 4px;
+}
+
+#t4 {
+    position: relative;
+    top: 5.5px;
+    left: 4px;
+}
+
+
+#t7 {
+    position: relative;
+    top: 10.5px;
+    left: 4px;
+
+}
+
+#delete {
+    position: relative;
+    top: 15.5px;
+    left: 4px;
+    font-size: medium;
+}
+
+/* ------------------------------ */
+
+#t2 {
+    position: relative;
+    top: -131.5px;
+    left: 52.5px;
+}
+
+#t5 {
+    position: relative;
+    left: 52.5px;
+    top: -126.5px;
+}
+
+#t8 {
+    position: relative;
+    top: -121.5px;
+    left: 52.5px;
+}
+
+#t0 {
+    position: relative;
+    top: -116.5px;
+    left: 52.5px;
+}
+
+/* ------------------------------------- */
+
+#t3 {
+    position: relative;
+    top: -263.25px;
+    left: 101px;
+}
+
+#t6 {
+    position: relative;
+    left: 101px;
+    top: -258.5px;
+}
+
+#t9 {
+    position: relative;
+    top: -253.25px;
+    left: 101px;
+}
+
+#enter {
+    position: relative;
+    top: -248.25px;
+    left: 101px;
+    font-size: medium;
+}
+
+/* -------------------------------- */
+
+#input {
+    width: 150px;
+    height: 20px;
+    border: 1px solid #212121;
+    position: relative;
+    top: 20px;
+    left: 43px;
+
+}
+
+.i {
+    width: 15px;
+    height: 15px;
+    border-bottom: 1px solid #88DB2A;
+    position: relative;
+    /* align-items: ; */
+    /* justify-content: ; */
+    color:white;
+    /* left: 20px; */
+    font-size: medium;
+    text-align: center;
+}
+
+#i1 {
+    top: 0.5px;
+    left: 6px  
+}
+
+#i2 {
+    left: 31px;
+    top:-15.25px;
+}
+
+#i3 {
+    left: 55px;
+    top: -31.25px;
+}
+
+#i4 {
+    left: 80px;
+    top: -47.25px;
+}
+
+#i5 {
+    left: 104px;
+    top: -63.25px;
+}
+
+#i6 {
+    left: 127px;
+    top: -79.25px;
+}
+
+#return {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 30px;
+    border-radius: 50%;
+    left: 105px;
+  }

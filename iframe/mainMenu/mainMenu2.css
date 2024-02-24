@@ -1,0 +1,153 @@
+.screen {
+  font-size: 25px;
+  position: absolute;
+  height: 236px;
+  width: 236px;
+  border-radius: 50%;
+  top: 0px;
+  left: 0px;
+  background-color: #212121;
+}
+
+.menus {
+  position: absolute;
+  width: 35px;
+  height: 150px;
+  background-color: #212121;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+#left {
+  top:42.5px;
+  left: -1px;
+}
+
+#right {
+  top:42.5px;
+  left: 204.5px;
+}
+
+#up {
+  transform: rotate(90deg);
+  left: 100.5px;
+  top: -59px;
+}
+
+#down {
+  transform: rotate(90deg);
+  left: 100.5px;
+  bottom: -63px;
+}
+
+.circle {
+  position: absolute;
+  width: 50px;
+  height: 70px;
+  background-color: #212121;
+  border-radius: 50%;
+  /* border: 1px solid blue; */
+}
+
+#lc {
+  border-right: 1px solid white;
+  top: 42.5px;
+  left: 7.5px;
+}
+
+#rc {
+  border-left: 1px solid white;
+  top: 42.5px;
+  left: -22.5px;
+}
+
+#uc {
+  border-right: 1px solid white;
+  top: 40px;
+  left: 7.5px;
+  transform: rotate(0deg);
+}
+
+#dc {
+  border-left: 1px solid white;
+  top: 40px;
+  left: -22.5px;
+  transform: rotate(0deg);
+}
+
+#cal {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  top: 17.5px;
+  right: -5px;
+  transform: rotate(-90deg);
+}
+
+#workout {
+  position: absolute;
+  height: 30px;
+  width: 35px;
+  border-radius: 50%;
+  top: 20px;
+  right: -5px;
+}
+
+#profile {
+  position: absolute;
+  height: 30px;
+  width: 35px;
+  border-radius: 50%;
+  top: 20px;
+  left: -5px;
+  transform: rotate(-90deg);
+}
+
+#heart {
+  position: absolute;
+  height: 30px;
+  width: 35px;
+  border-radius: 50%;
+  top: 20px;
+  left: -5px;
+}
+
+p {
+  font-size: large;
+  position: absolute;
+  color: white;
+}
+
+#la {
+  left:35px;
+  top:6px;
+}
+#ra {
+  right:35px;
+  top:6px;
+}
+#ua {
+  left:35px;
+  top:6px;
+}
+#da {
+  transform: rotate(180deg) ;
+  right:35px;
+  top:6px;
+}
+
+#digital-clock {
+  width: 124.5px;
+  height: 37.5px;
+  color: white;
+  position: absolute;
+  left: 57.5px;
+  top: 107.5px;
+  font-size: 20px;
+  /* border: 1px solid white; */
+  text-align: center;
+}
+
+
+  

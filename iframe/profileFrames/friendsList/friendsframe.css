@@ -1,0 +1,107 @@
+.screen {
+    font-size: 25px;
+    position: absolute;
+    height: 236px;
+    width: 236px;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+    background-color: #212121;
+    /* border: 1px solid #00A2E8; */
+  }
+  
+    #left {
+      width: 20px;
+      height: 20px;
+      z-index: 0;
+      position:relative;
+      top: 97.5px;
+      left: 20px;
+      margin-right: 170px;
+      background-color: #212121;
+      border-radius: 50%;
+      border: 1px solid #88DB2A;   
+    }
+  
+    #right {
+      width: 20px;
+      height: 20px;
+      z-index: 0;
+      position:relative;
+      top: -12.5px;
+      left: 25px;
+      margin-left: 170px;
+      background-color: #212121;
+      border-radius: 50%;
+      border: 1px solid #88DB2A;
+    }
+  
+    #arrow {
+      color: #88DB2A;
+      font-size: 10px;
+      margin-top: 5px;
+      cursor: pointer;
+      text-align: center;
+    }
+  
+    #options {
+      width: 135px;
+      height: 85px;
+      position: relative;
+      border: 1px solid #88DB2A;
+      border-radius: 10px 10px 10px 10px;
+      top: 40px;
+      left: 50px;
+      cursor: pointer;
+      line-height: 30px;
+      text-align: center;
+    }
+  
+    #current {
+      position: relative;
+      color: white;
+      font-size: 20px;
+      top: -60px;
+      /* left: 20px; */
+    }
+  
+    #title1/*, #title2*/ {
+      color: white;
+      position: relative;
+      font-size: 23px;
+    }
+  
+    #title1 {
+      top: -60px;
+      left: 0px;
+      text-align: center;
+    }
+  
+    /* #title2 {
+      top: -70px;
+    } */
+  
+    #return {
+      position: relative;
+      width: 35px;
+      height: 35px;
+      top: 35px;
+      border-radius: 50%;
+      left: 65px;
+    }
+  
+    #icon {
+      position: absolute;
+      top: 35px;
+      left: 50px;
+      width: 40px;
+      height: 40px;
+    }
+  
+    #add {
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      left: 135px;
+      top: 165px;
+    }

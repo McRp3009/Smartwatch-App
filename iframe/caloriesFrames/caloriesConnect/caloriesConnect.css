@@ -1,0 +1,141 @@
+.screen {
+   font-size: 25px;
+   position: absolute;
+   height: 236px;
+   width: 236px;
+   border-radius: 50%;
+   top: 0px;
+   left: 0px;
+   background-color: #212121;
+   /* border: 1px solid red; */
+ }
+  #return {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    border-radius: 50%;
+  }
+
+  #connect_phone {
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #ff7f27;
+    top: 45px;
+    left: 45px;
+  }
+
+  #text {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    top: -15px;
+    cursor: pointer;
+  }
+
+  #p1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: -35px;
+    left: -2.5px;
+    color: white;
+    font-size: 30px;
+  }
+
+  #p2 {
+    width: 150px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    top: 40px;
+    left: 0px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .spinner {
+    position: relative;
+    top: -50px;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    padding: 1.8px;
+    background: #ff7f27;
+    -webkit-mask: repeating-conic-gradient(#0000 0deg,#000 1deg 20deg,#0000 21deg 36deg),
+         radial-gradient(farthest-side,#0000 calc(100% - 14.1px),#000 calc(100% - 14.1px)); 
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    animation: spinner-d55elj 1.2s infinite steps(10);
+ }
+ 
+ @keyframes spinner-d55elj {
+    to {
+       transform: rotate(1turn);
+    }
+ }
+
+ .progress {
+    position: relative;
+    top: -125px;
+    left: -15px;
+    width: 170px;
+    height: 15px;
+    border-radius: 28.8px;
+    color: #ff7f27;
+    border: 2.9px solid;
+    position: relative;
+ }
+ 
+ .progress::before {
+    content: "";
+    position: absolute;
+    margin: 2.9px;
+    inset: 0 100% 0 0;
+    border-radius: inherit;
+    background: currentColor;
+    animation: progress-pf82op 5s 1;
+ }
+ 
+ @keyframes progress-pf82op {
+    100% {
+       inset: 0;
+    }
+ }
+
+ #return {
+   position: relative;
+   width: 40px;
+   height: 40px;
+   top: 10px;
+   left: 10px;
+   border-radius: 50%;
+   /* left: 100px; */
+ }
+
+ #circle {
+   width: 60px;
+   height: 60px;
+   position: relative;
+   border-radius: 50%;
+   border: 0.5px solid #ff7f27;
+   top: 60px;
+   left: 87.5px;
+   background-color: #212121;
+ }
+
+ #camera {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: -55px;
+  left: 37px;
+  border-radius: 50%;
+ }

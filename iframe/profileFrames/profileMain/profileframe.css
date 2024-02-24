@@ -1,0 +1,94 @@
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+#profile {
+    height: 118px;
+    width: 236px;
+    position: absolute;
+    left: -1px;
+    border-radius: 236px 236px 0 0;
+    background-color: #212121;
+    border-top: 1px solid #88DB2A;
+    border-right: 1px solid #88DB2A;
+    border-left: 1px solid #88DB2A;
+    /* border-bottom: 1px solid #88DB2A; */
+    color: white;
+    top: -1px;
+    }
+    
+    #friends {
+      height: 118px;
+      width: 236px;
+      position: absolute;
+      border-radius: 0 0 236px 236px;
+      /* transform:rotate(180deg); */
+      background-color: #212121;
+      top: 118px;
+      left: -1px;
+      /* border-top: 1px solid #88DB2A; */
+      border-right: 1px solid #88DB2A;
+      border-left: 1px solid #88DB2A;
+      border-bottom: 1px solid #88DB2A;
+      color: white;
+    }
+
+    .screen {
+        font-size: 25px;
+        position: absolute;
+        height: 236px;
+        width: 236px;
+        border-radius: 50%;
+        top: 1px;
+        left: 1px;
+        background-color: #212121;
+        color: white;
+        border: 1px solid #88DB2A;
+  }
+
+#pfp {
+    position: relative;
+    height: 55px;
+    width: 55px;
+    top: -35px;
+    left: 90px;
+  }
+
+#friendsButton {
+    position: relative;
+    height: 40px;
+    width: 45px;
+    left: 140px;
+    top: -40px;
+}
+
+p{
+    font-size: 90%;
+}
+
+#pfp {
+    position: relative;
+    transform:translate(0, 50px);
+}
+
+#name {
+    position: relative;
+    text-align: center;
+    top: -15px;
+}
+
+#id {
+    position: relative;
+    text-align: center;
+    top: -35px;
+}
+
+#return {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: -37.5px;
+    border-radius: 50%;
+    left: 5px;
+  }
